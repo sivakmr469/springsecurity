@@ -10,7 +10,8 @@ import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-/*this is user table*/
+/*this is user table in nfc*/
+
 @Entity
 @Table(name="users")
 public class User{
